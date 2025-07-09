@@ -1,0 +1,41 @@
+body {
+    background-color: hsl(0, 0%, 8%);
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: x-small;
+    color: white;
+    text-align: center;
+}
+
+#loc {
+    color: hsl(75, 94%, 57%);
+    font-weight: bold;
+}
+
+#greybox {
+    background-color: hsl(0, 0%, 12%);
+    display: inline-block;
+    margin: auto auto;
+    border-radius: 1em;
+    padding: 2em;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.button {
+   background-color:  hsl(0, 0%, 20%);
+   padding: 0.6em 0.6em;
+   margin-top: 1em;
+   border-radius: 0.3em;
+   font-weight: bold;
+}
+
+img {
+    border-radius: 100%;
+    width: 30%;
+}
